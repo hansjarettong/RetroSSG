@@ -1,0 +1,11 @@
+<div class="file-list">
+    {{file_list}}
+</div>
+<div class="doc-reader">
+    <div>
+        <div class="doc-reader-header"><span>Header</span></div>
+        <div class="doc-reader-content">
+            {{main_html_content}}
+        </div>
+    </div>
+</div>

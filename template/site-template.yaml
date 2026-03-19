@@ -1,0 +1,28 @@
+index:
+  template: "base.template"
+  variables:
+    header_text: "Welcome to My Site!"
+    main_html_content: "content/index_main.html"
+    main_class: "red-background"
+
+cv:
+  template: "base.template"
+  variables:
+    header_text: "Curriculum Vitae"
+    main_html_content: "content/cv_main.html"
+    main_class: ""
+
+research:
+  template: "base.template"
+  variables:
+    header_text: "Research"
+    main_class: "file-explorer"
+    main_html_content:
+      main:
+        template: "file-explorer.template"
+        variables:
+          file_list:
+            Publications: ["Paper1", "Conference"]
+            Others: ["Foo", "Bar"]
+          main_html_content: "content/research_main.html"
+
